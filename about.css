@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+nav{
+  width: 100%;
+  background-color: transparent;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 120px;
+
+}
+
+nav h1{
+  font-size: 32px;
+  font-family: sans-serif;
+  padding-top: 20px;
+  color: rgb(8, 8, 8);
+  text-transform: uppercase;
+  float: left;
+
+}
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  padding: 20px 20px;
+  display: block;
+}
+.high:hover{
+  color: yellow;
+}
+
+nav ul li ul{
+  position: absolute;
+  display: none;
+  background-color: transparent;
+  border-radius: 0px 0px 5px 5px;
+  background-color: yellow;
+  margin-right: 5px;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav ul li ul li{
+  line-height: 1;
+  border-radius: 5px;
+  padding: 3px;
+  
+
+}
+
+nav ul li ul li a{
+  padding: 10px 16px;
+  
+}
+
+.hour:hover{
+  
+  color: black;
+}
+.hour{
+  color: rgb(54, 52, 52);
+  text-align: center;
+}
+
+.footer ul li a{
+  color: rgb(8, 8, 8);
+  
+}
+
+.text-center{
+  color: rgb(8, 8, 8);
+}
+
+.about{
+  padding-top: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading{
+  text-align: center;
+  padding-top: 70px;
+  font-family: initial;
+  font-family: "Playwrite GB J Guides", cursive;
+  color: rgb(171, 108, 129);
+}
+
+.next{
+  padding-bottom: 60px;
+}
+
+.about p{
+  padding-left: 50px;
+  letter-spacing: 3;
+  line-height: 35px;
+}
+
+.about img{
+  width: 500px;
+  height: 350px;
+  padding-left: 100px;
+}
+
+.underline{
+  border-style: dashed;
+  color: #E1C47E;
+}
+
+.next{
+  display: flex;
+  letter-spacing: 3;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.spassing{
+  padding-left: 60px;
+  line-height: 35px;
+  padding-right: 90px;
+}
+.passing{
+ line-height: 40px;
+ padding-left: 90px;
+ padding-right: 30px;
+}
